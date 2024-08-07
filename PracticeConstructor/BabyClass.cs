@@ -47,7 +47,7 @@ namespace PracticeConstructor
         public void BabyDisplay() // display baby informations
 
         {
-            Console.WriteLine($" name {_name}, surname {_surname}, birthday {_birthDate}");
+            Console.WriteLine($" name {_name}, surname {_surname}, birthday { _birthDate = DateTime.Now}");
 
 
         }
